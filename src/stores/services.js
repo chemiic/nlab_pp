@@ -1,22 +1,26 @@
 export const services = [
     {
         name: 'apple-services',
-        title: 'Ремонт',
+        title: 'Ремонт Apple',
+        img: 'slider__apple.png',
         servicesList: []
     },
     {
         name: 'mobile-services',
-        title: 'Ремонт ',
+        title: 'Ремонт телефонов',
+        img: 'slider__phone.png',
         servicesList: []
     },
     {
         name: 'laptop-services',
-        title: 'Ремонт ',
+        title: 'Ремонт ноутбуков',
+        img: 'slider__laptop.png',
         servicesList: []
     },
     {
         name: 'pc-services',
-        title: 'Ремонт ',
+        title: 'Ремонт ПК',
+        img: 'slider__pc.png',
         servicesList: []
     },
 ]
