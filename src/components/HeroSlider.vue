@@ -46,11 +46,11 @@ import {services} from "@/stores/services.js";
 .slider__content{
   position: absolute;
   top: 40%;
-  left: 200px;
+  left: 20%;
   color: white;
 }
 .slider__text{
-  font-size: 50px;
+  font-size: 3.1rem;
   font-family: Montserrat, sans-serif;
   margin-bottom: 30px;
 }

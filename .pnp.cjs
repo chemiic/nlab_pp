@@ -34,7 +34,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["swiper", "npm:8.4.5"],\
             ["vite", "virtual:0a5e90a279fa0156c89ae9743c14d98bae5b00dd318bc48fd33fa6b94fa7c5deb6df95ec0679bd4d5b59dfc8f47ac57ec30ad26b33989e3195d5d5397a081d6e#npm:4.0.2"],\
             ["vue", "npm:3.2.45"],\
-            ["vue-router", "virtual:0a5e90a279fa0156c89ae9743c14d98bae5b00dd318bc48fd33fa6b94fa7c5deb6df95ec0679bd4d5b59dfc8f47ac57ec30ad26b33989e3195d5d5397a081d6e#npm:4.1.6"]\
+            ["vue-router", "virtual:0a5e90a279fa0156c89ae9743c14d98bae5b00dd318bc48fd33fa6b94fa7c5deb6df95ec0679bd4d5b59dfc8f47ac57ec30ad26b33989e3195d5d5397a081d6e#npm:4.1.6"],\
+            ["vue3-burger-menu", "npm:1.1.1"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -1369,7 +1370,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["swiper", "npm:8.4.5"],\
             ["vite", "virtual:0a5e90a279fa0156c89ae9743c14d98bae5b00dd318bc48fd33fa6b94fa7c5deb6df95ec0679bd4d5b59dfc8f47ac57ec30ad26b33989e3195d5d5397a081d6e#npm:4.0.2"],\
             ["vue", "npm:3.2.45"],\
-            ["vue-router", "virtual:0a5e90a279fa0156c89ae9743c14d98bae5b00dd318bc48fd33fa6b94fa7c5deb6df95ec0679bd4d5b59dfc8f47ac57ec30ad26b33989e3195d5d5397a081d6e#npm:4.1.6"]\
+            ["vue-router", "virtual:0a5e90a279fa0156c89ae9743c14d98bae5b00dd318bc48fd33fa6b94fa7c5deb6df95ec0679bd4d5b59dfc8f47ac57ec30ad26b33989e3195d5d5397a081d6e#npm:4.1.6"],\
+            ["vue3-burger-menu", "npm:1.1.1"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -1927,6 +1929,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [\
             "@types/vue",\
             "vue"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["vue3-burger-menu", [\
+        ["npm:1.1.1", {\
+          "packageLocation": "./.yarn/cache/vue3-burger-menu-npm-1.1.1-1113fb3fe0-6507d56fee.zip/node_modules/vue3-burger-menu/",\
+          "packageDependencies": [\
+            ["vue3-burger-menu", "npm:1.1.1"],\
+            ["vue", "npm:3.2.45"]\
           ],\
           "linkType": "HARD"\
         }]\

@@ -1189,6 +1189,7 @@ __metadata:
     vite: ^4.0.0
     vue: ^3.2.45
     vue-router: 4
+    vue3-burger-menu: ^1.1.1
   languageName: unknown
   linkType: soft
 
@@ -1668,7 +1669,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue@npm:^3.2.45":
+"vue3-burger-menu@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "vue3-burger-menu@npm:1.1.1"
+  dependencies:
+    vue: ^3.0.0-0
+  checksum: 6507d56fee9de7c525b2214af9faa2a1318aace906d573c3210d8fe4aee4e5b04375ec210bd3bbd172abb4bdfe5a52416a04552f2e28660380ba45307b00c6fc
+  languageName: node
+  linkType: hard
+
+"vue@npm:^3.0.0-0, vue@npm:^3.2.45":
   version: 3.2.45
   resolution: "vue@npm:3.2.45"
   dependencies:
