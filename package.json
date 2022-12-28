@@ -12,7 +12,7 @@
     "@coreui/vue": "^4.5.0",
     "reset-css": "^5.0.1",
     "swiper": "^8.4.5",
-    "vue": "^3.2.45",
+    "vue": "^3.2.45"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
