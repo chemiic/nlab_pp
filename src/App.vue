@@ -1,6 +1,8 @@
 <template>
   <DefaultLayout>
-    <HomePage/>
+    <HomePage>
+      <router-view/>
+    </HomePage>
   </DefaultLayout>
 </template>
 
