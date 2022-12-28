@@ -4,10 +4,6 @@
   </button>
 </template>
 
-<script setup>
-
-</script>
-
 <style scoped lang="scss">
   .btn{
     padding: 15px 35px;

@@ -16,6 +16,9 @@
 <style scoped lang="scss">
   .about{
     padding: 70px 10px;
+    @media (max-width: 900px) {
+      padding: 50px 10px;
+    }
   }
   .about__content{
     padding: 70px 10px;
@@ -25,6 +28,7 @@
     align-items: center;
     max-width: 1170px;
     margin: 0 auto;
+
     img{
       max-width: 470px;
       width: 100%;
@@ -32,9 +36,10 @@
     p{
       max-width: 570px;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 900px) {
       flex-direction: column;
       text-align: center;
+      padding: 30px 10px;
     }
   }
   .abuout__text{

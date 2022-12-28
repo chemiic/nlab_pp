@@ -22,8 +22,6 @@
           <MyBtn>Подробнее</MyBtn>
         </div>
       </swiper-slide>
-
-
     </swiper>
   </section>
 </template>
@@ -40,7 +38,6 @@ import {services} from "@/stores/services.js";
 
 
 </script>
-
 <style scoped lang="scss">
 .slider__img{
   filter: brightness(0.7);

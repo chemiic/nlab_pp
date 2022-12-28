@@ -23,22 +23,31 @@
 
 <script setup>
 import {services} from "../stores/services.js";
-
 const  acordion = (event) => {
   event.target.classList.toggle('active');
 }
-
 </script>
 
 <style scoped lang="scss">
+
   .block__title.active{
     background-color: #054AC0;
-    border-bottom: 2px solid black;
     color: white;
   }
   .block__title.active +  .block__content{
       height: auto;
       padding: 15px 15px 15px 30px;
+  }
+  .arrow{
+    transition: all .3s;
+  }
+  .block__title.active{
+    .arrow{
+      transform: rotateX(180deg);
+    }
+    .arrow > svg > path{
+      fill: white;
+    }
   }
   .services{
     padding: 70px 0;
@@ -50,7 +59,7 @@ const  acordion = (event) => {
 
     &__title{
       background-color: #fff;
-      border-radius: 15px;
+      border-radius: 13px;
       padding: 40px 100px;
       display: flex;
       justify-content: space-between;

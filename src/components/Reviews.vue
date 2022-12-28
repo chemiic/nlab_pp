@@ -8,10 +8,6 @@
   </section>
 </template>
 
-<script>
-
-</script>
-
 <style scoped lang="scss">
   .reviews{
     position: relative;

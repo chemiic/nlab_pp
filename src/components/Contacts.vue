@@ -29,7 +29,6 @@
   </section>
 </template>
 
-
 <style scoped lang="scss">
 .contacts{
   padding: 70px 0 30px 0;
@@ -41,10 +40,12 @@
   justify-content: center;
   flex-direction: column;
   font-weight: bold;
+  @media (max-width: 900px) {
+    padding: 50px 0 0 0;
+  }
 }
 .contacts__wrap{
-  margin: 0 auto;
-  margin-top: 50px;
+  margin: 50px auto 0;
   max-width: 450px;
   text-align: center;
   display: flex;
@@ -52,6 +53,9 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
+  @media (max-width: 900px) {
+    margin-top: 30px;
+  }
 }
 .social{
   display: flex;

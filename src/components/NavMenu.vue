@@ -100,7 +100,7 @@
     .nav-contact{
       position: absolute;
       font-size: 16px;
-      right: -400px;
+      right: 10px;
       top: 190px;
     }
   }
@@ -156,5 +156,4 @@
   #burger.active .burger-bar--3 {
     transform: rotate(-45deg)
   }
-
 </style>
