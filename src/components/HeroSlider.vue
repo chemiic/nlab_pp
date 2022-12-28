@@ -19,7 +19,10 @@
         <img :src=slide.img alt="" class="slider__img" style="pointer-events: none;">
         <div class="slider__content">
           <div class="slider__text">{{ slide.title }}</div>
-          <MyBtn>Подробнее</MyBtn>
+          <a href="#services">
+            <MyBtn>Подробнее</MyBtn>
+          </a>
+
         </div>
       </swiper-slide>
     </swiper>

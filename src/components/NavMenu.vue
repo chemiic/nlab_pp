@@ -6,10 +6,10 @@
       </svg>
     </div>
       <ul class="nav-list" v-show="IsBurgerActive">
-        <li class="nav-list__item"><a href="#services" class="nav-list__item-link">Услуги</a></li>
-        <li class="nav-list__item"><a href="#portfolio" class="nav-list__item-link">Работы</a></li>
-        <li class="nav-list__item"><a href="#about" class="nav-list__item-link">О нас</a></li>
-        <li class="nav-list__item"><a href="#reviews" class="nav-list__item-link">Отзывы</a></li>
+        <li class="nav-list__item"><a href="#services" @click="IsBurgerActive = !IsBurgerActive" class="nav-list__item-link">Услуги</a></li>
+        <li class="nav-list__item"><a href="#portfolio" @click="IsBurgerActive = !IsBurgerActive" class="nav-list__item-link">Работы</a></li>
+        <li class="nav-list__item"><a href="#about" @click="IsBurgerActive = !IsBurgerActive" class="nav-list__item-link">О нас</a></li>
+        <li class="nav-list__item"><a href="#reviews" @click="IsBurgerActive = !IsBurgerActive" class="nav-list__item-link">Отзывы</a></li>
       </ul>
       <div class="nav-contact" v-show="IsBurgerActive">+ 7(910)-777-86-31</div>
     <div id="burger"
@@ -30,6 +30,7 @@
 <script setup>
   import {ref } from 'vue'
   const IsBurgerActive = ref(true)
+
 </script>
 
 <style scoped lang="scss">
