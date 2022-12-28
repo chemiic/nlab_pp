@@ -1,5 +1,5 @@
 <template>
-  <section class="portfolio">
+  <section class="portfolio" id="portfolio">
     <h2>Работы</h2>
     <swiper
         :slides-per-view="1"
