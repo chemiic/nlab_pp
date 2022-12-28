@@ -3,7 +3,7 @@
     <h2 class="feature__title">Почему мы?</h2>
     <div class="features__cards">
       <div class="feature" v-for="item in features">
-        <img :src="`src/assets/img/features/${item.img}`" alt="" class="feature__img">
+        <img :src=item.img alt="" class="feature__img">
         <p class="feature__text">{{ item.text }}</p>
       </div>
     </div>

@@ -3,14 +3,14 @@ export const services = [
         id: 0,
         name: 'apple-services',
         title: 'Ремонт Apple',
-        img: 'slider__apple.png',
+        img: 'https://sun9-33.userapi.com/impg/Y_CPwPLpz-GW5ohhwT9jVLeOxr9m2mi-xvVCDw/pVHES3_CkMA.jpg?size=682x821&quality=96&sign=cc8a3c837550dfd98c2b91cbce9c2825&type=album',
         servicesList: ['iPhone', 'Mac','iPad', 'MacBook', 'Выкуп и продажа б/у техники']
     },
     {
         id: 1,
         name: 'mobile-services',
         title: 'Ремонт телефонов',
-        img: 'slider__phone.png',
+        img: 'https://sun9-39.userapi.com/impg/Vg2YxJEEl_aBum3RALjJq2EP0chWAbEvJGCqRg/Apt-v79s1qs.jpg?size=990x660&quality=96&sign=0aeee2a7dd4131b4e46d1f690cbeb01c&type=album',
         servicesList: [
             'Диагностика',
             'Замена дисплея',
@@ -32,7 +32,7 @@ export const services = [
         id: 2,
         name: 'laptop-services',
         title: 'Ремонт ноутбуков',
-        img: 'slider__laptop.png',
+        img: 'https://sun9-80.userapi.com/impg/LOBJ82d90VWa31AvvnGJX1-Y853bjyB_OR_q-g/c1-5l2KGfTk.jpg?size=990x660&quality=96&sign=ffb685ecc775fac1a1206457b31b2f45&type=album',
         servicesList: [
             'Диагностика',
             'Установка АНТИВИРУСОВ',
@@ -61,7 +61,7 @@ export const services = [
         id: 3,
         name: 'pc-services',
         title: 'Ремонт ПК',
-        img: 'slider__pc.png',
+        img: 'https://sun1-94.userapi.com/impg/mo-yg_EUzv0gUrXXUiqGZ2y8JohdV97RC_PJ9g/zeN4W83m8K0.jpg?size=990x660&quality=96&sign=888aa688a99aa013cb5bf3304f1119d2&type=album',
         servicesList: [
             'Диагностика',
             'Сборка компьютеров на заказ',

@@ -25,6 +25,11 @@
 import {services} from "../stores/services.js";
 import { ref } from "vue"
 
+for (let i in services.length){
+  console.log(i)
+}
+// console.log(services.length)
+
 const show = ref(false)
 
 
@@ -48,16 +53,22 @@ const show = ref(false)
       justify-content: space-between;
       align-items: center;
       cursor: pointer;
+      font-size:20px;
       font-weight: bold;
       @media (max-width: 900px) {
         padding: 40px 30px;
+      }
+      @media (max-width: 550px) {
+        font-size: 16px;
       }
       //background-color: #054AC0;
       //border-bottom: 2px solid black;
     }
     &__content{
       padding: 15px 15px 15px 30px;
-
+      @media (max-width: 550px) {
+        font-size: 12px;
+      }
       ul{
         list-style-type: disc;
         line-height: 1.5rem;

@@ -16,6 +16,7 @@
     transition: all 0.3s;
     color: white;
     border-radius: 10px;
+    font-weight: bold;
     &:hover{
       background-color: #2B73EF;
       cursor: pointer;

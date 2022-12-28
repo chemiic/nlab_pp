@@ -5,11 +5,11 @@
   </section>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
     .contact__small{
       color: white;
       text-align: center;
-      padding: 100px;
+      padding: 100px 0;
       background: url("@/assets/img/contact.png") no-repeat;
       background-size: cover;
     }
@@ -17,6 +17,12 @@
       margin-bottom: 50px;
     }
     .cs_text{
-      font-size: 1.5rem;
+      font-size: 32px;
+      @media (max-width: 900px) {
+        font-size: 24px;
+      }
+      @media (max-width: 550px) {
+        font-size: 16px;
+      }
     }
 </style>

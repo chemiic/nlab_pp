@@ -22,8 +22,12 @@
     color: white;
     padding: 10px 60px;
     background-color: #054AC0;
+    text-align: center;
     @media (max-width: 900px) {
       padding: 10px;
+    }
+    @media (max-width: 550px) {
+      font-size: 12px;
     }
   }
 </style>

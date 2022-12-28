@@ -16,7 +16,7 @@
         class="mySwiper"
     >
       <swiper-slide v-for="slide in services">
-        <img :src="`src/assets/img/HeroSlider/${slide.img}`" alt="" class="slider__img">
+        <img :src=slide.img alt="" class="slider__img" style="pointer-events: none;">
         <div class="slider__content">
           <div class="slider__text">{{ slide.title }}</div>
           <MyBtn>Подробнее</MyBtn>
@@ -53,9 +53,16 @@ import {services} from "@/stores/services.js";
   color: white;
 }
 .slider__text{
-  font-size: 3.1rem;
+  font-size: 50px;
   font-family: Montserrat, sans-serif;
   margin-bottom: 30px;
+  @media (max-width: 900px) {
+    font-size: 40px;
+  }
+  @media (max-width: 550px) {
+    font-size: 32px;
+  }
+
 }
 .swiper {
   width: 100%;

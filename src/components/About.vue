@@ -27,6 +27,7 @@
     margin: 0 auto;
     img{
       max-width: 470px;
+      width: 100%;
     }
     p{
       max-width: 570px;

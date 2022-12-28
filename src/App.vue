@@ -10,13 +10,19 @@
 
 </script>
 
-<style>
+<style lang="scss">
   h1,h2,h3,h4,h5,h5{
     font-family: Montserrat,sans-serif;
   }
   h2{
-    font-size: 2.5rem;
+    font-size: 30px;
     text-align: center;
+    @media (max-width: 900px) {
+      font-size: 30px;
+    }
+    @media (max-width: 550px) {
+      font-size: 20px;
+    }
   }
   button {
     cursor: pointer;
