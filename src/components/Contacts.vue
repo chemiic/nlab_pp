@@ -22,6 +22,9 @@
           </svg>
         </a>
       </div>
+      <div class="map-wrapper">
+        <iframe class='map' src="https://yandex.ru/map-widget/v1/-/CCUNzRDI~B" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+      </div>
     </div>
   </section>
 </template>
@@ -29,10 +32,37 @@
 
 <style scoped lang="scss">
 .contacts{
-  padding: 70px;
-  background: url("@/assets/img/constactsBg.png") no-repeat;
+  padding: 70px 0 30px 0;
+  margin: 0 auto;
+  background: url("@/assets/img/contactsBg.png") no-repeat bottom center;
+  background-size: contain;
+  display: flex;
+  max-width: 1440px;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: bold;
 }
 .contacts__wrap{
+  margin: 0 auto;
+  margin-top: 50px;
   max-width: 450px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.social{
+  display: flex;
+  gap: 30px;
+  margin: 20px 0;
+}
+.map{
+  width: 1000px;
+  height: 400px;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
 }
 </style>

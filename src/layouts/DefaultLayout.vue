@@ -4,11 +4,13 @@
     <main class="main">
       <slot/>
     </main>
+    <Footer/>
   </div>
 </template>
 
 <script setup>
   import NavMenu from "@/components/NavMenu.vue";
+  import Footer from "@/components/Footer.vue";
 </script>
 
 <style scoped lang="scss">
