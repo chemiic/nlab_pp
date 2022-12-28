@@ -4,7 +4,7 @@
       <img src="@/assets/img/logo.svg" alt="" class="logo-img">
     </div>
     <ul class="nav-list" v-show="IsBurgerActive">
-      <li class="nav-list__item"><a href="#" class="nav-list__item-link">Услуги</a></li>
+      <li class="nav-list__item"><a href="" class="nav-list__item-link">Услуги</a></li>
       <li class="nav-list__item"><a href="#" class="nav-list__item-link">Работы</a></li>
       <li class="nav-list__item"><a href="#" class="nav-list__item-link">О нас</a></li>
       <li class="nav-list__item"><a href="#" class="nav-list__item-link">Отзывы</a></li>
@@ -28,7 +28,8 @@
 </template>
 
 <script setup>
-  import { ref } from 'vue'
+
+  import {ref } from 'vue'
   const IsBurgerActive = ref(true)
 
 </script>
@@ -48,6 +49,7 @@
     max-width: 1440px;
     margin: 0 auto;
     font-size: 1.2rem;
+    font-weight: bold;
     padding: 20px;
     display: flex;
     justify-content: space-between;

@@ -1,29 +1,31 @@
 <template>
-  <swiper
-      :slides-per-view="1"
-      :loop="true"
-      :speed="800"
-      navigation
-      :pagination="{
+  <section class="hero__slider">
+    <swiper
+        :slides-per-view="1"
+        :loop="true"
+        :speed="800"
+        navigation
+        :pagination="{
          clickable: true,
       }"
-      :autoplay="{
-        delay: 3002220,
+        :autoplay="{
+        delay: 3000,
         disableOnInteraction: true,
       }"
-      :modules="[Navigation,Pagination, Autoplay]"
-      class="mySwiper"
-  >
-    <swiper-slide v-for="slide in services">
-      <img :src="`src/assets/img/${slide.img}`" alt="" class="slider__img">
-      <div class="slider__content">
-        <div class="slider__text">{{ slide.title }}</div>
-        <MyBtn>Подробнее</MyBtn>
-      </div>
-    </swiper-slide>
+        :modules="[Navigation,Pagination, Autoplay]"
+        class="mySwiper"
+    >
+      <swiper-slide v-for="slide in services">
+        <img :src="`src/assets/img/HeroSlider/${slide.img}`" alt="" class="slider__img">
+        <div class="slider__content">
+          <div class="slider__text">{{ slide.title }}</div>
+          <MyBtn>Подробнее</MyBtn>
+        </div>
+      </swiper-slide>
 
 
-  </swiper>
+    </swiper>
+  </section>
 </template>
 
 <script setup>
@@ -35,6 +37,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
 import MyBtn from "../components/UI/MyBtn.vue";
 import {services} from "@/stores/services.js";
+
 
 </script>
 

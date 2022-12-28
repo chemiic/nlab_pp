@@ -28,6 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@coreui/vue", "virtual:0a5e90a279fa0156c89ae9743c14d98bae5b00dd318bc48fd33fa6b94fa7c5deb6df95ec0679bd4d5b59dfc8f47ac57ec30ad26b33989e3195d5d5397a081d6e#npm:4.5.0"],\
             ["@vitejs/plugin-vue", "virtual:0a5e90a279fa0156c89ae9743c14d98bae5b00dd318bc48fd33fa6b94fa7c5deb6df95ec0679bd4d5b59dfc8f47ac57ec30ad26b33989e3195d5d5397a081d6e#npm:4.0.0"],\
             ["reset-css", "npm:5.0.1"],\
             ["sass", "npm:1.57.1"],\
@@ -35,7 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["vite", "virtual:0a5e90a279fa0156c89ae9743c14d98bae5b00dd318bc48fd33fa6b94fa7c5deb6df95ec0679bd4d5b59dfc8f47ac57ec30ad26b33989e3195d5d5397a081d6e#npm:4.0.2"],\
             ["vue", "npm:3.2.45"],\
             ["vue-router", "virtual:0a5e90a279fa0156c89ae9743c14d98bae5b00dd318bc48fd33fa6b94fa7c5deb6df95ec0679bd4d5b59dfc8f47ac57ec30ad26b33989e3195d5d5397a081d6e#npm:4.1.6"],\
-            ["vue3-burger-menu", "npm:1.1.1"]\
+            ["vue-scrollto", "npm:2.20.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -76,6 +77,32 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/helper-string-parser", "npm:7.19.4"],\
             ["@babel/helper-validator-identifier", "npm:7.19.1"],\
             ["to-fast-properties", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@coreui/vue", [\
+        ["npm:4.5.0", {\
+          "packageLocation": "./.yarn/cache/@coreui-vue-npm-4.5.0-1a13394f08-e5612ef6af.zip/node_modules/@coreui/vue/",\
+          "packageDependencies": [\
+            ["@coreui/vue", "npm:4.5.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:0a5e90a279fa0156c89ae9743c14d98bae5b00dd318bc48fd33fa6b94fa7c5deb6df95ec0679bd4d5b59dfc8f47ac57ec30ad26b33989e3195d5d5397a081d6e#npm:4.5.0", {\
+          "packageLocation": "./.yarn/__virtual__/@coreui-vue-virtual-23087b2b86/0/cache/@coreui-vue-npm-4.5.0-1a13394f08-e5612ef6af.zip/node_modules/@coreui/vue/",\
+          "packageDependencies": [\
+            ["@coreui/vue", "virtual:0a5e90a279fa0156c89ae9743c14d98bae5b00dd318bc48fd33fa6b94fa7c5deb6df95ec0679bd4d5b59dfc8f47ac57ec30ad26b33989e3195d5d5397a081d6e#npm:4.5.0"],\
+            ["@coreui/coreui", null],\
+            ["@types/coreui__coreui", null],\
+            ["@types/vue", null],\
+            ["vue", "npm:3.2.45"]\
+          ],\
+          "packagePeers": [\
+            "@coreui/coreui",\
+            "@types/coreui__coreui",\
+            "@types/vue",\
+            "vue"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -574,6 +601,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/balanced-match-npm-1.0.2-a53c126459-9706c088a2.zip/node_modules/balanced-match/",\
           "packageDependencies": [\
             ["balanced-match", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["bezier-easing", [\
+        ["npm:2.1.0", {\
+          "packageLocation": "./.yarn/cache/bezier-easing-npm-2.1.0-71cc003779-ec22666b53.zip/node_modules/bezier-easing/",\
+          "packageDependencies": [\
+            ["bezier-easing", "npm:2.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1364,6 +1400,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["nlab", "workspace:."],\
+            ["@coreui/vue", "virtual:0a5e90a279fa0156c89ae9743c14d98bae5b00dd318bc48fd33fa6b94fa7c5deb6df95ec0679bd4d5b59dfc8f47ac57ec30ad26b33989e3195d5d5397a081d6e#npm:4.5.0"],\
             ["@vitejs/plugin-vue", "virtual:0a5e90a279fa0156c89ae9743c14d98bae5b00dd318bc48fd33fa6b94fa7c5deb6df95ec0679bd4d5b59dfc8f47ac57ec30ad26b33989e3195d5d5397a081d6e#npm:4.0.0"],\
             ["reset-css", "npm:5.0.1"],\
             ["sass", "npm:1.57.1"],\
@@ -1371,7 +1408,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["vite", "virtual:0a5e90a279fa0156c89ae9743c14d98bae5b00dd318bc48fd33fa6b94fa7c5deb6df95ec0679bd4d5b59dfc8f47ac57ec30ad26b33989e3195d5d5397a081d6e#npm:4.0.2"],\
             ["vue", "npm:3.2.45"],\
             ["vue-router", "virtual:0a5e90a279fa0156c89ae9743c14d98bae5b00dd318bc48fd33fa6b94fa7c5deb6df95ec0679bd4d5b59dfc8f47ac57ec30ad26b33989e3195d5d5397a081d6e#npm:4.1.6"],\
-            ["vue3-burger-menu", "npm:1.1.1"]\
+            ["vue-scrollto", "npm:2.20.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -1933,12 +1970,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["vue3-burger-menu", [\
-        ["npm:1.1.1", {\
-          "packageLocation": "./.yarn/cache/vue3-burger-menu-npm-1.1.1-1113fb3fe0-6507d56fee.zip/node_modules/vue3-burger-menu/",\
+      ["vue-scrollto", [\
+        ["npm:2.20.0", {\
+          "packageLocation": "./.yarn/cache/vue-scrollto-npm-2.20.0-c30c1cc6ba-6c982ae729.zip/node_modules/vue-scrollto/",\
           "packageDependencies": [\
-            ["vue3-burger-menu", "npm:1.1.1"],\
-            ["vue", "npm:3.2.45"]\
+            ["vue-scrollto", "npm:2.20.0"],\
+            ["bezier-easing", "npm:2.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\

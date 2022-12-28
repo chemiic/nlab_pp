@@ -39,6 +39,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@coreui/vue@npm:^4.5.0":
+  version: 4.5.0
+  resolution: "@coreui/vue@npm:4.5.0"
+  peerDependencies:
+    "@coreui/coreui": ^4.2.2
+    vue: ^3.2.21
+  checksum: e5612ef6af89992e6aec0e218f095e3df42dd1de99e89678be23a62f815a0f57e523feeee742aa162eab434a34f9bbe3993c7d1794415ad4c7cf0fb22e0e5f9b
+  languageName: node
+  linkType: hard
+
 "@esbuild/android-arm64@npm:0.16.9":
   version: 0.16.9
   resolution: "@esbuild/android-arm64@npm:0.16.9"
@@ -431,6 +441,13 @@ __metadata:
   version: 1.0.2
   resolution: "balanced-match@npm:1.0.2"
   checksum: 9706c088a283058a8a99e0bf91b0a2f75497f185980d9ffa8b304de1d9e58ebda7c72c07ebf01dadedaac5b2907b2c6f566f660d62bd336c3468e960403b9d65
+  languageName: node
+  linkType: hard
+
+"bezier-easing@npm:2.1.0":
+  version: 2.1.0
+  resolution: "bezier-easing@npm:2.1.0"
+  checksum: ec22666b5385979b3e7a63eaf2631395b1be5beb3aed4f14cc70ae9eb09032082584f7e3eec045e4c122466987ed7e159f5b39f82b8a9870cd55e75b0d55a7d5
   languageName: node
   linkType: hard
 
@@ -1182,6 +1199,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nlab@workspace:."
   dependencies:
+    "@coreui/vue": ^4.5.0
     "@vitejs/plugin-vue": ^4.0.0
     reset-css: ^5.0.1
     sass: ^1.55.0
@@ -1189,7 +1207,7 @@ __metadata:
     vite: ^4.0.0
     vue: ^3.2.45
     vue-router: 4
-    vue3-burger-menu: ^1.1.1
+    vue-scrollto: ^2.20.0
   languageName: unknown
   linkType: soft
 
@@ -1669,16 +1687,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue3-burger-menu@npm:^1.1.1":
-  version: 1.1.1
-  resolution: "vue3-burger-menu@npm:1.1.1"
+"vue-scrollto@npm:^2.20.0":
+  version: 2.20.0
+  resolution: "vue-scrollto@npm:2.20.0"
   dependencies:
-    vue: ^3.0.0-0
-  checksum: 6507d56fee9de7c525b2214af9faa2a1318aace906d573c3210d8fe4aee4e5b04375ec210bd3bbd172abb4bdfe5a52416a04552f2e28660380ba45307b00c6fc
+    bezier-easing: 2.1.0
+  checksum: 6c982ae729a09e4c44d9daacde7a34745d8356577442c56998a4158c8a4a35c7dce3e80eb2a23d4cec4f2ba17eceaa4e664239b3c97ab2642d47be711ff8e795
   languageName: node
   linkType: hard
 
-"vue@npm:^3.0.0-0, vue@npm:^3.2.45":
+"vue@npm:^3.2.45":
   version: 3.2.45
   resolution: "vue@npm:3.2.45"
   dependencies:
