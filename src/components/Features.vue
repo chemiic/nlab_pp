@@ -30,6 +30,9 @@ import {features} from "../stores/features.js";
   @media (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
   }
+  @media (max-width: 550px) {
+    grid-template-columns: 1fr;
+  }
 }
 .feature{
   font-size: 16px;
