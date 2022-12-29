@@ -1,7 +1,6 @@
 <template>
   <DefaultLayout>
     <HomePage>
-      <router-view/>
     </HomePage>
   </DefaultLayout>
 </template>
